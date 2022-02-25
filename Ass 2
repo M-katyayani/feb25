@@ -1,0 +1,14 @@
+n=int(input())
+a=[]
+b=[]
+c=0
+for i in range(n):
+    x=int(input())
+    a.append(x)
+for i in range(n):
+    if a[i]!=0:
+        c=c+1
+        b.append(a[i])
+print(a)
+print(c)
+        
